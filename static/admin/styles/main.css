@@ -60,9 +60,10 @@
    /* Style the tab   ....ends*/ 
 
    /* Centered text */
-.b>centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } 
+.noborder
+{
+ 
+  border-left: 0;
+  border-right: 0;
+  border-top: 0;
+}
